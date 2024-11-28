@@ -1,0 +1,17 @@
+# Ignore all files in the "data" directory
+/data/
+
+# Ignore specific data files
+data.csv
+backup.db
+
+# Ignore all files with specific extensions
+*.csv
+*.db
+
+# Ignore nested data directories
+**/data/
+/Servers
+./Servers
+./.metadata
+/.metadata
