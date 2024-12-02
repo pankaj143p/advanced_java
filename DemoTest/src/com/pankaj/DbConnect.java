@@ -22,10 +22,12 @@ public class DbConnect {
 	
 			Connection connection = (Connection) DriverManager.getConnection(url,username, password);
 	        Statement statement = ((java.sql.Connection) connection).createStatement();	
-	        String query = String.format("UPDATE teacher SET marks = %f WHERE id = %d" , 87.40,2);
+//	        for update 
+//	        String query = String.format("UPDATE teacher SET marks = %f WHERE id = %d" , 87.40,2);
+	        String query = String.format("DELETE from teacher WHERE ID = 2");
 	        int row = statement.executeUpdate(query);
 	        if(row>0) {
-	        	System.out.println("updated successfully");
+	        	System.out.println("delete successfully");
 	        }else {
 	        	System.out.println("any error");
 	        }
