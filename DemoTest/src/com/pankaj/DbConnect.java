@@ -96,6 +96,7 @@ public class DbConnect {
 				int age = sc.nextInt();
 				System.out.println("Enter your marks: ");
                 double marks = sc.nextDouble();
+                System.out.println("Enter your choice: N/Y");
                 String choice = sc.next();
                 ps.setString(1, name);
                 ps.setInt(2,age);
