@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class DbConnect {
-     private static final String url = "jdbc:mysql://127.0.0.1:3306/combinedb";
+     private static final String url = "";
      private static final String username = "root";
      private static final String password = "123@Code";
 	 /**
